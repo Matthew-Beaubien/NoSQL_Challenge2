@@ -1,0 +1,19 @@
+{
+    "name": "social-network-web-app",
+    "version": "1.0.1",
+    "description": "Social Network Web App",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.10",
+        "express": "^4.17.1",
+        "mongoose": "^8.2.4"
+    }
+}
